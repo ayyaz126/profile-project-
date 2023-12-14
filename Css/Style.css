@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+.contaniner{
+    max-width: 1170;
+    margin: auto;
+}
+.row{
+    display: flex;
+
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.team{
+    min-height: 100zvh;
+    line-height: 1.5;
+    padding: 70px 0px;
+}
+.team-items{
+    width: calc((100%/3) - 30px);
+    margin: 0px 15px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+.team-items .img-box{
+    height: 220px;
+    width: 220px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
